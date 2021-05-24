@@ -24,3 +24,9 @@
   cursor: pointer;
   background-color: honeydew;
 }
+
+@media (max-width: 800px) {
+  .card {
+    flex-direction: column;
+  }
+}
